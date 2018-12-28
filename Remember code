@@ -1,0 +1,107 @@
+#Note: Worked with basic 'print testing' havent tested with Bot.
+#Add this where you see fit..
+elif message.content.startswith(".remember"):
+
+	#Generates random number to get remember message from  events that have happened in sprawl. Feel free to add more.
+
+	member = random.randint(1,41)
+
+
+	#Christof
+	if member == 1:
+		msg = "```Remember that time Christof tackled a Robot Synth thing to save Seraph?```"
+	elif member == 2:
+		msg ="```Remember that time Christof said he wasn't going to bring Waleed but did but never used him?```"
+	elif member == 3:
+		msg = "```Remember that time Christof forgot Waleed in a drug den and Waleed got picked up the Police and Medtech?```"
+	elif member == 4:
+		msg = "```when Christof didn\'t use Waleed to sniff for a bomb then dived in front of Maxine when it exploded?```"
+	elif member == 5:
+		msg = "```Remember that time Christof was doubting that Syntax Terror was a junkie, whilest Syntax Terrror had no pants on in a drug den?```"    
+	elif member == 6:
+		msg = "```Remember that time Christof brutally killed a bunch of goons all at once with his barehands```"
+	elif member == 7:
+		msg = "```Ever been to a Vet for serious medical attention? because Christoff has.```"
+	elif member == 8:
+		msg = "```Christof threw H4KKK3R out of the way of a building falling down, fun times for everyone.```"
+	elif member == 9:
+		msg = "```Christof charged into heavily armed police and took a shotgun to the face before finally dying to Syntax Terrors drones. F is chat please..```"
+	#laramy Fisk
+	elif member == 10:
+		msg = "```That Laramy stabbed Noor with with some drugs and Noor then ran out infront of a truck. Good times. ```" 
+	elif member == 11:
+		msg = "```That time Laramy didn't show up cause he was super high at home. Hope that mission went well.```"
+	elif member == 12:
+		msg = "```Keep the drugs away from Laramy cause he's been known to take some Meatloaf followed by other drugs and go on a killing spree both friend and foe```" 
+	elif member == 13:
+		msg = "```That time Laramy had Meatloaf and  rocket launcher thing and proceeded to shot the building to get the mission done!```" 
+	#Seraph
+	elif member == 14:
+		msg = "```That time Seraph parkoured up a convayor belt, jumped into the air and dabbed their way onto the next floor up!```"
+	elif member == 15:
+		msg = "```How long did Seraph drag Christoff's body around when he died?```" 
+	elif member == 16:
+		msg = "```*Looks in window* shots a goon in the face, gets a van. Good job Seraph.```" 
+	elif member == 17:
+		msg = "``` Seraph somehow snuck a grendade into a pot plant while being watched by gaurds and managed to get Noor to take the full on it.```"
+	elif member == 18:
+		msg = "```Remember when Seraph tried killing Tony and had their arm broken and sent to jail?```" 
+	elif member == 19:
+		msg = "```Who's got a cyber arm thanks to the Thing? Thats right Seraph does.```" 
+	#Syntax Terror
+	elif member == 21:
+		msg = "```I used my  bear drones (thats right more than one) to win the slaughterfest, -syntax terror```" 
+	elif member == 22:
+		msg = "```With enough cred Syntax terror managed to buy Seraph. Good job Syntax Terror!```" 
+	elif member == 23:
+		msg = "```Getting bear drones to blow up police to help us escapse, no problem for Syntax Terror```" 
+	#H4KKK3R
+	elif member == 24:
+		msg = "```H4KKK3R can hack a aircon, and make the room a little cold. Nice hacking right there!```" 
+	elif member == 25:
+		msg = "```H4KKK3R just jackin into the Matrix while standing in a bar, it happens more than you think. ```" 
+	elif member == 26:
+		msg = "```When H4KKK3R tried fleeing the scene only to be shot and lose some memory```" 
+	elif member == 27:
+		msg = "```That time H4KKK3R took some braind damage from failing to get past some black ice```" 
+	elif member == 28:
+	#Noor
+		msg = "```Whats for lunch?```" 
+	elif member == 29:
+		msg = "```That time Noor said they were responsible for putting a grenade in the pot plant only to then shoot themself. F in chat if you really want to but probs dont bother...```" 
+	elif member == 30:
+		msg = "```Noors good at talking and seducing people. Just kidding probably being thrown out by gaurds or getting attacked or something instead.```" 
+	elif member == 31:
+		msg = "```That time Noor was useful by having a gun out that Laramy stole and shot gaurds with.```" 
+	elif member == 32:
+		msg = "```Remember when Noor got shot because Laramy tried to steal Seraphs gun?```" 
+	#Martin Jr
+	elif member == 33:
+		msg = "```When we all tried to kill Martin JR and that manged to tank and seriously harm the entire group.```" 
+	elif member == 34:
+		msg = "```Martin JR gets injured at a bar from a gun fight, walks out of said bar into a sniper bullet, some how still managing to live and get taken to a hospital, only to then die. F in chat if you think Martin JR deserves it.```" 
+	#Azrael
+	elif member == 35:
+		msg = "```Who hides in a dumpster and 'provides'sniper cover? Azrael (to the tune of Spongebob)```" 
+	elif member == 36:
+		msg = "```When Azrael doesn't snipe people so Syntax gives their position away with a smoke grenade```" 
+	elif member == 37:
+		msg = "```Syntax Terror pinned some stuff on Azrael causing Azrael to get killed, please don't F in chat.```" 
+	#MC
+	elif member == 38:
+		msg = "```That time the MC sounds like a robot just after introducing the Thing.```" 
+	elif member == 39:
+		msg = "```MC makes somekind of robot noise... MC clock advances.```" 
+	elif member == 40:
+		msg = "```Who's getting more drunk and making the outcomes worse and worse? Thats right the MC```" 
+	elif member == 41:
+		msg = "```*Bans Waleed from the chat*```" 
+		
+				
+	 # Send the message
+			await client.send_message(message.channel, msg.format(message))
+			
+	#Basic output testing		
+	#print member
+	#print "\n"   
+	#print msg	
