@@ -35,7 +35,7 @@ def handle(message):
 		msg = """```Touched by death:\n whenever someone in your care dies, you get +1weird (max +3). ```"""
  	
 	#Àngel Move Lists
-	elif message.content.startwith("angel")
+	elif message.content.startwith("angel"):
 		msg = """```.sixthsense\n.infirmary\n.professionalcompassion\n.battlefieldgrace\n.healingtouch\n.touchedbydeath```"""
 		 
 		
@@ -109,7 +109,7 @@ def handle(message):
 		hold.\n 
 		On a miss, you inflict 1-harm (ap) upon your subject, to no benefit.```"""
 	#Brainer Move list
-	elif message.content.startswith(".brainer")
+	elif message.content.startswith(".brainer"):
 		msg = """```..unnaturallusttransfixion\n.casualbrainreceptivity\n.pretnernatual\n.deepbrainscan\n.directbrainwhisperprojection\n.inbrainpupperstrings```"""
 		
 	#################
@@ -136,7 +136,7 @@ def handle(message):
 		thing, but it turns out that some asswipe stole it from you.
 		```"""
 	#Chopper Moves List
-	elif message.content.startswith(".chopper")
+	elif message.content.startswith(".chopper"):
 		msg = """```.packalpha\n.fuckingthieves```"""
 
 		
@@ -170,7 +170,7 @@ def handle(message):
 	elif message.content.startswith(".myothercarisatank"):
 		msg = """```My other car is a tank:\nyou get an additional car. Give it mounted machine guns (3-harm close/far area messy) or grenade launchers (4-harm close area messy) and +1armor.```"""
 	#Driver Moves List
-	elif message.content.startswith("driver")
+	elif message.content.startswith("driver"):
 		msg = """```.noshitdriver\n.goodintheclinch\n.weathereye\n.daredevil\n.myothercarisatank```"""
 		
 
@@ -204,7 +204,7 @@ def handle(message):
 	elif message.content.startswith(".preparedfortheinevitable"):
 		msg = """```Prepared for the inevitable:\nyou have a well-stocked and highquality first aid kit. It counts as an angel kit (cf ) with a capacity of 2-stock.```"""
 	#Gunslinger Moves List
-	elif message.content.startswith(".gunslinger")
+	elif message.content.startswith(".gunslinger"):
 		msg = """```.battlefieldinstincts\n.bloodcrazed\n.nottobefuckedwith\n.insanolikedrano\n.preparedfortheinevitable```"""
 
 
@@ -243,7 +243,7 @@ def handle(message):
 	elif message.content.startswith(".divineprotection"):
 		msg = """```Divine protection:\n your gods give you 1-armor. If you wear armor, use that instead, they don’t add.```"""
 	#Hocus Moves List
-	elif message.content.startswith("hocus")
+	elif message.content.startswith("hocus"):
 		msg = """```.fortunes\n.frenzy\n.charismatic\n.fuckingwacknut\n.seeingsouls\n.divineprotection```"""
 		
 	###########
@@ -296,7 +296,7 @@ def handle(message):
 		On a miss, they hold 2 over you, on the exact same terms.\n
 		```"""
 	#Hocus Moves List
-	elif message.content.startswith("hocus")
+	elif message.content.startswith("hocus"):
 		msg = """```.breathtaking\n.lost\n.artfulandgracious\n.anarrestingskinner\n.hypnotic```"""
 			
 		
